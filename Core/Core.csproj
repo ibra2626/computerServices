@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraEditors.v19.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraEditors.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraGrid.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.2">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.XtraVerticalGrid.v19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
